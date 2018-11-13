@@ -1,0 +1,101 @@
+Cod Cliente;Velocidade de entrega;Nível de preço;Flexibilidade de preço;Imagem do fabricante;Serviço geral;Imagem da força de vendas;Qualidade do produto;Tamanho da empresa;Nível de uso;Nível de satisfação;Especificação de compra;Estrutura de aquisição;Tipo de indústria;Tipo de situação de compra
+1803277;4,1;0,6;6,9;4,7;2,4;2,3;5,2;Pequena;32;4,2;uso de especificações de compra;Não-centralizada;Tradicional;Nova tarefa
+1802002;1,8;3;6,3;6,6;2,5;4;8,4;Grande;43;4,3;análise do valor total;Centralizada;Semi-Digital;Nova tarefa
+1799215;3,4;5,2;5,7;6;4,3;2,7;8,2;Grande;48;5,2;análise do valor total;Centralizada;Tradicional;Nova compra modificada
+1791840;2,7;1;7,1;5,9;1,8;2,3;7,8;Grande;32;3,9;análise do valor total;Centralizada;Tradicional;Nova tarefa
+1795801;6;0,9;9,6;7,8;3,4;4,6;4,5;Pequena;58;6,8;uso de especificações de compra;Não-centralizada;Tradicional;Nova compra simples
+1801225;1,9;3,3;7,9;4,8;2,6;1,9;9,7;Grande;45;4,4;análise do valor total;Centralizada;Tradicional;Nova compra modificada
+1790013;4,6;2,4;9,5;6,6;3,5;4,5;7,6;Pequena;46;5,8;uso de especificações de compra;Não-centralizada;Tradicional;Nova tarefa
+1801624;1,3;4,2;6,2;5,1;2,8;2,2;6,9;Grande;44;4,3;análise do valor total;Centralizada;Semi-Digital;Nova compra modificada
+1802010;5,5;1,6;9,4;4,7;3,5;3;7,6;Pequena;63;5,4;uso de especificações de compra;Não-centralizada;Tradicional;Nova compra simples
+1802749;4;3,5;6,5;6;3,7;3,2;8,7;Grande;54;5,4;análise do valor total;Centralizada;Semi-Digital;Nova compra modificada
+1791614;2,4;1,6;8,8;4,8;2;2,8;5,8;Pequena;32;4,3;uso de especificações de compra;Não-centralizada;Semi-Digital;Nova tarefa
+1790268;3,9;2,2;9,1;4,6;3;2,5;8,3;Pequena;47;5;uso de especificações de compra;Não-centralizada;Tradicional;Nova compra modificada
+1797260;2,8;1,4;8,1;3,8;2,1;1,4;6,6;Grande;39;4,4;análise do valor total;Centralizada;Semi-Digital;Nova tarefa
+1797144;3,7;1,5;8,6;5,7;2,7;3,7;6,7;Pequena;38;5;uso de especificações de compra;Não-centralizada;Tradicional;Nova tarefa
+1793683;4,7;1,3;9,9;6,7;3;2,6;6,8;Pequena;54;5,9;uso de especificações de compra;Não-centralizada;Semi-Digital;Nova compra simples
+1802554;3,4;2;9,7;4,7;2,7;1,7;4,8;Pequena;49;4,7;uso de especificações de compra;Não-centralizada;Semi-Digital;Nova compra simples
+1800033;3,2;4,1;5,7;5,1;3,6;2,9;6,2;Pequena;38;4,4;uso de especificações de compra;Centralizada;Tradicional;Nova compra modificada
+1790687;4,9;1,8;7,7;4,3;3,4;1,5;5,9;Pequena;40;5,6;uso de especificações de compra;Não-centralizada;Semi-Digital;Nova compra modificada
+1785145;5,3;1,4;9,7;6,1;3,3;3,9;6,8;Pequena;54;5,9;uso de especificações de compra;Não-centralizada;Tradicional;Nova compra simples
+1789481;4,7;1,3;9,9;6,7;3;2,6;6,8;Pequena;55;6;uso de especificações de compra;Não-centralizada;Semi-Digital;Nova compra simples
+1798163;3,3;0,9;8,6;4;2,1;1,8;6,3;Pequena;41;4,5;uso de especificações de compra;Não-centralizada;Semi-Digital;Nova compra modificada
+1797715;3,4;0,4;8,3;2,5;1,2;1,7;5,2;Pequena;35;3,3;uso de especificações de compra;Não-centralizada;Semi-Digital;Nova tarefa
+1803370;3;4;9,1;7,1;3,5;3,4;8,4;Pequena;55;5,2;uso de especificações de compra;Centralizada;Semi-Digital;Nova compra simples
+1802351;2,4;1,5;6,7;4,8;1,9;2,5;7,2;Grande;36;3,7;análise do valor total;Centralizada;Semi-Digital;Nova tarefa
+1800778;5,1;1,4;8,7;4,8;3,3;2,6;3,8;Pequena;49;4,9;uso de especificações de compra;Não-centralizada;Semi-Digital;Nova compra modificada
+1789727;4,6;2,1;7,9;5,8;3,4;2,8;4,7;Pequena;49;5,9;uso de especificações de compra;Não-centralizada;Tradicional;Nova compra simples
+1793478;2,4;1,5;6,6;4,8;1,9;2,5;7,2;Grande;36;3,7;análise do valor total;Centralizada;Semi-Digital;Nova tarefa
+1798619;5,2;1,3;9,7;6,1;3,2;3,9;6,7;Pequena;54;5,8;uso de especificações de compra;Não-centralizada;Tradicional;Nova compra simples
+1796303;3,5;2,8;9,9;3,5;3,1;1,7;5,4;Pequena;49;5,4;uso de especificações de compra;Não-centralizada;Tradicional;Nova compra simples
+1801731;4,1;3,7;5,9;5,5;3,9;3;8,4;Grande;46;5,1;análise do valor total;Centralizada;Semi-Digital;Nova compra modificada
+1786635;3;3,2;6;5,3;3,1;3;8;Grande;43;3,3;análise do valor total;Centralizada;Semi-Digital;Nova tarefa
+1793467;2,8;3,8;8,9;6,9;3,3;3,2;8,2;Pequena;53;5;uso de especificações de compra;Centralizada;Semi-Digital;Nova compra simples
+1802316;5,2;2;9,3;5,9;3,7;2,4;4,6;Pequena;60;6,1;uso de especificações de compra;Não-centralizada;Semi-Digital;Nova compra simples
+1794851;3,4;3,7;6,4;5,7;3,5;3,4;8,4;Grande;47,3;3,8;análise do valor total;Centralizada;Semi-Digital;Nova tarefa
+1793858;2,4;1;7,7;3,4;1,7;1,1;6,2;Grande;35;4,1;análise do valor total;Centralizada;Semi-Digital;Nova tarefa
+1793812;1,8;3,3;7,5;4,5;2,5;2,4;7,6;Grande;39;3,6;análise do valor total;Centralizada;Tradicional;Nova tarefa
+1789811;3,6;4;5,8;5,8;3,7;2,5;9,3;Grande;44;4,8;análise do valor total;Centralizada;Tradicional;Nova compra modificada
+1800862;4;0,9;9,1;5,4;2,4;2,6;7,3;Pequena;46;5,1;uso de especificações de compra;Não-centralizada;Tradicional;Nova compra simples
+1794775;0;2,1;6,9;5,4;1,1;2,6;8,9;Grande;29;3,9;análise do valor total;Centralizada;Tradicional;Nova tarefa
+1798849;2,4;2;6,4;4,5;2,1;2,2;8,8;Grande;28;3,3;análise do valor total;Centralizada;Tradicional;Nova tarefa
+1800841;1,9;3,4;7,6;4,6;2,6;2,5;7,7;Grande;40;3,7;análise do valor total;Centralizada;Tradicional;Nova tarefa
+1790057;5,9;0,9;9,6;7,8;3,4;4,6;4,5;Pequena;58;6,7;uso de especificações de compra;Não-centralizada;Tradicional;Nova compra simples
+1795935;4,9;2,3;9,3;4,5;3,6;1,3;6,2;Pequena;53;5,9;uso de especificações de compra;Não-centralizada;Semi-Digital;Nova compra simples
+1788256;5;1,3;8,6;4,7;3,1;2,5;3,7;Pequena;48;4,8;uso de especificações de compra;Não-centralizada;Semi-Digital;Nova compra modificada
+1796693;2;2,6;6,5;3,7;2,4;1,7;8,5;Grande;38;3,2;análise do valor total;Centralizada;Tradicional;Nova tarefa
+1793813;5;2,5;9,4;4,6;3,7;1,4;6,3;Pequena;54;6;uso de especificações de compra;Não-centralizada;Semi-Digital;Nova compra simples
+1797718;3,1;1,9;10;4,5;2,6;3,2;3,8;Pequena;55;4,9;uso de especificações de compra;Não-centralizada;Tradicional;Nova compra simples
+1791684;3,4;3,9;5,6;5,6;3,6;2,3;9,1;Grande;43;4,7;análise do valor total;Centralizada;Tradicional;Nova compra modificada
+1793888;5,8;0,2;8,8;4,5;3;2,4;6,7;Pequena;57;4,9;uso de especificações de compra;Não-centralizada;Tradicional;Nova compra simples
+1792148;5,4;2,1;8;3;3,8;1,4;5,2;Pequena;53;3,8;uso de especificações de compra;Não-centralizada;Tradicional;Nova compra simples
+1790440;3,7;0,7;8,2;6;2,1;2,5;5,2;Pequena;41;5;uso de especificações de compra;Não-centralizada;Semi-Digital;Nova compra modificada
+1795952;2,6;4,8;8,2;5;3,6;2,5;9;Grande;53;5,2;análise do valor total;Centralizada;Tradicional;Nova compra modificada
+1786793;4,5;4,1;6,3;5,9;4,3;3,4;8,8;Grande;50;5,5;análise do valor total;Centralizada;Semi-Digital;Nova compra modificada
+1789082;2,8;2,4;6,7;4,9;2,5;2,6;9,2;Grande;32;3,7;análise do valor total;Centralizada;Tradicional;Nova tarefa
+1803485;3,8;0,8;8,7;2,9;1,6;2,1;5,6;Pequena;39;3,7;uso de especificações de compra;Não-centralizada;Semi-Digital;Nova tarefa
+1789966;2,9;2,6;7,7;7;2,8;3,6;7,7;Pequena;47;4,2;uso de especificações de compra;Centralizada;Tradicional;Nova compra modificada
+1792341;4,9;4,4;7,4;6,9;4,6;4;9,6;Grande;62;6,2;análise do valor total;Centralizada;Semi-Digital;Nova compra modificada
+1800598;5,4;2,5;9,6;5,5;4;3;7,7;Pequena;65;6;uso de especificações de compra;Não-centralizada;Semi-Digital;Nova compra simples
+1786996;4,3;1,8;7,6;5,4;3,1;2,5;4,4;Pequena;46;5,6;uso de especificações de compra;Não-centralizada;Tradicional;Nova compra simples
+1800189;2,3;4,5;8;4,7;3,3;2,2;8,7;Grande;50;5;análise do valor total;Centralizada;Tradicional;Nova compra modificada
+1794711;3,1;1,9;9,9;4,5;2,6;3,1;3,8;Pequena;54;4,8;uso de especificações de compra;Não-centralizada;Tradicional;Nova compra simples
+1801882;5,1;1,9;9,2;5,8;3,6;2,3;4,5;Pequena;60;6,1;uso de especificações de compra;Não-centralizada;Semi-Digital;Nova compra simples
+1794299;4,1;1,1;9,3;5,5;2,5;2,7;7,4;Pequena;47;5,3;uso de especificações de compra;Não-centralizada;Tradicional;Nova compra simples
+1785048;3;3,8;5,5;4,9;3,4;2,6;6;Pequena;36;4,2;uso de especificações de compra;Centralizada;Tradicional;Nova compra modificada
+1802626;1,1;2;7,2;4,7;1,6;3,2;10;Grande;40;3,4;análise do valor total;Centralizada;Tradicional;Nova tarefa
+1788546;3,7;1,4;9;4,5;2,6;2,3;6,8;Pequena;45;4,9;uso de especificações de compra;Não-centralizada;Semi-Digital;Nova compra modificada
+1787669;4,2;2,5;9,2;6,2;3,3;3,9;7,3;Pequena;59;6;uso de especificações de compra;Não-centralizada;Semi-Digital;Nova compra simples
+1797825;1,6;4,5;6,4;5,3;3;2,5;7,1;Grande;46;4,5;análise do valor total;Centralizada;Semi-Digital;Nova compra modificada
+1786569;5,3;1,7;8,5;3,7;3,5;1,9;4,8;Pequena;58;4,3;uso de especificações de compra;Não-centralizada;Semi-Digital;Nova compra simples
+1790722;2,3;3,7;8,3;5,2;3;2,3;9,1;Grande;49;4,8;análise do valor total;Centralizada;Tradicional;Nova compra modificada
+1802532;3,6;5,4;5,9;6,2;4,5;2,9;8,4;Grande;50;5,4;análise do valor total;Centralizada;Tradicional;Nova compra modificada
+1802925;5,6;2,2;8,2;3,1;4;1,6;5,3;Pequena;55;3,9;uso de especificações de compra;Não-centralizada;Tradicional;Nova compra simples
+1795166;3,6;2,2;9,9;4,8;2,9;1,9;4,9;Pequena;51;4,9;uso de especificações de compra;Não-centralizada;Semi-Digital;Nova compra simples
+1785518;5,2;1,3;9,1;4,5;3,3;2,7;7,3;Pequena;60;5,1;uso de especificações de compra;Não-centralizada;Tradicional;Nova compra simples
+1795672;3;2;6,6;6,6;2,4;2,7;8,2;Grande;41;4,1;análise do valor total;Centralizada;Semi-Digital;Nova tarefa
+1797036;4,2;2,4;9,4;4,9;3,2;2,7;8,5;Pequena;49;5,2;uso de especificações de compra;Não-centralizada;Tradicional;Nova compra modificada
+1792458;3,8;0,8;8,3;6,1;2,2;2,6;5,3;Pequena;42;5,1;uso de especificações de compra;Não-centralizada;Semi-Digital;Nova compra modificada
+1789729;3,3;2,6;9,7;3,3;2,9;1,5;5,2;Pequena;47;5,1;uso de especificações de compra;Não-centralizada;Tradicional;Nova compra simples
+1793267;1;1,9;7,1;4,5;1,5;3,1;9,9;Grande;39;3,3;análise do valor total;Centralizada;Tradicional;Nova tarefa
+1789196;4,5;1,6;8,7;4,6;3,1;2,1;6,8;Pequena;56;5,1;uso de especificações de compra;Não-centralizada;Semi-Digital;Nova compra simples
+1785798;5,5;1,8;8,7;3,8;3,6;2,1;4,9;Pequena;59;4,5;uso de especificações de compra;Não-centralizada;Semi-Digital;Nova compra simples
+1792499;3,4;4,6;5,5;8,2;4;4,4;6,3;Pequena;47,3;5,6;uso de especificações de compra;Centralizada;Tradicional;Nova compra modificada
+1792957;1,6;2,8;6,1;6,4;2,3;3,8;8,2;Grande;41;4,1;análise do valor total;Centralizada;Semi-Digital;Nova tarefa
+1791940;2,3;3,7;7,6;5;3;2,5;7,4;Pequena;37;4,4;uso de especificações de compra;Centralizada;Semi-Digital;Nova tarefa
+1799893;2,6;3;8,5;6;2,8;2,8;6,8;Grande;53;5,6;análise do valor total;Centralizada;Semi-Digital;Nova compra modificada
+1788557;2,5;3,1;7;4,2;2,8;2,2;9;Grande;43;3,7;análise do valor total;Centralizada;Tradicional;Nova tarefa
+1787912;2,4;2,9;8,4;5,9;2,7;2,7;6,7;Grande;51;5,5;análise do valor total;Centralizada;Semi-Digital;Nova compra modificada
+1790618;2,1;3,5;7,4;4,8;2,8;2,3;7,2;Pequena;36;4,3;uso de especificações de compra;Centralizada;Semi-Digital;Nova tarefa
+1801077;2,9;1,2;7,3;6,1;2;2,5;8;Grande;34;4;análise do valor total;Centralizada;Tradicional;Nova tarefa
+1788872;4,3;2,5;9,3;6,3;3,4;4;7,4;Pequena;60;6,1;uso de especificações de compra;Não-centralizada;Semi-Digital;Nova compra simples
+1794232;3;2,8;7,8;7,1;3;3,8;7,9;Pequena;49;4,4;uso de especificações de compra;Centralizada;Tradicional;Nova compra modificada
+1790354;4,8;1,7;7,6;4,2;3,3;1,4;5,8;Pequena;39;5,5;uso de especificações de compra;Não-centralizada;Semi-Digital;Nova compra modificada
+1791760;3,1;4,2;5,1;7,8;3,6;4;5,9;Pequena;43;5,2;uso de especificações de compra;Centralizada;Tradicional;Nova compra modificada
+1787388;1,9;2,7;5;4,9;2,2;2,5;8,2;Grande;36;3,6;análise do valor total;Centralizada;Semi-Digital;Nova tarefa
+1797975;4;0,5;6,7;4,5;2,2;2,1;5;Pequena;31;4;uso de especificações de compra;Não-centralizada;Tradicional;Nova tarefa
+1789023;0,6;1,6;6,4;5;0,7;2,1;8,4;Grande;25;3,4;análise do valor total;Centralizada;Tradicional;Nova tarefa
+1793623;6,1;0,5;9,2;4,8;3,3;2,8;7,1;Pequena;60;5,2;uso de especificações de compra;Não-centralizada;Tradicional;Nova compra simples
+1792957;2;2,8;5,2;5;2,4;2,7;8,4;Grande;38;3,7;análise do valor total;Centralizada;Semi-Digital;Nova tarefa
+1795540;3,1;2,2;6,7;6,8;2,6;2,9;8,4;Grande;42;4,3;análise do valor total;Centralizada;Semi-Digital;Nova tarefa
+1798328;2,5;1,8;9;5;2,2;3;6;Pequena;33;4,4;uso de especificações de compra;Não-centralizada;Semi-Digital;Nova tarefa
