@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<PMML version="4.3" xmlns="http://www.dmg.org/PMML-4_3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.dmg.org/PMML-4_3 pmml-4-3.xsd">
+  <Header copyright="Copyright(c) IBM Corp. 1989-2015. All rights reserved.">
+    <Application name="IBM SPSS Modeler Common" version="18.1.1.0"/>
+    <Timestamp/>
+</Header>
+  <DataDictionary numberOfFields="9">
+    <DataField dataType="double" displayName="age" isCyclic="0" name="age" optype="continuous"/>
+    <DataField dataType="double" displayName="ed" isCyclic="0" name="ed" optype="ordinal">
+      <Value displayValue="Did not complete high school" property="valid" value="1"/>
+      <Value displayValue="High school degree" property="valid" value="2"/>
+      <Value displayValue="Some college" property="valid" value="3"/>
+      <Value displayValue="College degree" property="valid" value="4"/>
+      <Value displayValue="Post-undergraduate degree" property="valid" value="5"/>
+</DataField>
+    <DataField dataType="double" displayName="employ" isCyclic="0" name="employ" optype="continuous"/>
+    <DataField dataType="double" displayName="address" isCyclic="0" name="address" optype="continuous"/>
+    <DataField dataType="double" displayName="income" isCyclic="0" name="income" optype="continuous"/>
+    <DataField dataType="double" displayName="debtinc" isCyclic="0" name="debtinc" optype="continuous"/>
+    <DataField dataType="double" displayName="creddebt" isCyclic="0" name="creddebt" optype="continuous"/>
+    <DataField dataType="double" displayName="othdebt" isCyclic="0" name="othdebt" optype="continuous"/>
+    <DataField dataType="double" displayName="Inadimplente" isCyclic="0" name="Inadimplente" optype="categorical">
+      <Value displayValue="No" property="valid" value="0"/>
+      <Value displayValue="Yes" property="valid" value="1"/>
+</DataField>
+</DataDictionary>
+  <TreeModel algorithmName="C&amp;RT" functionName="classification">
+    <Extension extender="spss.com">
+      <X-risk value="0.237373737373737"/>
+      <X-seOfRisk value="0.0302370638655091"/>
+</Extension>
+    <MiningSchema>
+      <MiningField importance="0.592814" name="debtinc" usageType="active"/>
+      <MiningField importance="0.0426847" name="othdebt" usageType="active"/>
+      <MiningField importance="0.0426847" name="creddebt" usageType="active"/>
+      <MiningField importance="0.0426847" name="age" usageType="active"/>
+      <MiningField importance="0.0511319" name="employ" usageType="active"/>
+      <MiningField importance="0.0426847" name="income" usageType="active"/>
+      <MiningField importance="0.107344" name="address" usageType="active"/>
+      <MiningField importance="0.0779712" name="ed" usageType="active"/>
+      <MiningField name="Inadimplente" usageType="predicted"/>
+</MiningSchema>
+    <ModelStats>
+      <UnivariateStats field="debtinc">
+        <Counts invalidFreq="0" missingFreq="0" totalFreq="502"/>
+        <NumericInfo maximum="41.3" minimum="0.4"/>
+</UnivariateStats>
+      <UnivariateStats field="othdebt">
+        <Counts invalidFreq="0" missingFreq="0" totalFreq="502"/>
+        <NumericInfo maximum="20.615868" minimum="0.045584"/>
+</UnivariateStats>
+      <UnivariateStats field="creddebt">
+        <Counts invalidFreq="0" missingFreq="0" totalFreq="502"/>
+        <NumericInfo maximum="20.56131" minimum="0.011696"/>
+</UnivariateStats>
+      <UnivariateStats field="age">
+        <Counts invalidFreq="0" missingFreq="0" totalFreq="502"/>
+        <NumericInfo maximum="56" minimum="20"/>
+</UnivariateStats>
+      <UnivariateStats field="employ">
+        <Counts invalidFreq="0" missingFreq="0" totalFreq="502"/>
+        <NumericInfo maximum="31" minimum="0"/>
+</UnivariateStats>
+      <UnivariateStats field="income">
+        <Counts invalidFreq="0" missingFreq="0" totalFreq="502"/>
+        <NumericInfo maximum="446" minimum="14"/>
+</UnivariateStats>
+      <UnivariateStats field="address">
+        <Counts invalidFreq="0" missingFreq="0" totalFreq="502"/>
+        <NumericInfo maximum="34" minimum="0"/>
+</UnivariateStats>
+      <UnivariateStats field="ed">
+        <Counts invalidFreq="0" missingFreq="0" totalFreq="502"/>
+</UnivariateStats>
+</ModelStats>
+    <Node defaultChild="1" id="0" recordCount="502" score="0">
+      <Extension>
+        <X-Node>
+          <X-NodeStats improvement="0.0480324827295508"/>
+</X-Node>
+</Extension>
+      <True/>
+      <ScoreDistribution confidence="0.743027888446215" probability="0.743027888446215" recordCount="373" value="0">
+        <Extension extender="spss.com" name="probability" value="0.743027888446215"/>
+</ScoreDistribution>
+      <ScoreDistribution confidence="0.256972111553785" probability="0.256972111553785" recordCount="129" value="1">
+        <Extension extender="spss.com" name="probability" value="0.256972111553785"/>
+</ScoreDistribution>
+      <Node id="1" recordCount="340" score="0">
+        <CompoundPredicate booleanOperator="surrogate">
+          <CompoundPredicate booleanOperator="and">
+            <True/>
+            <SimplePredicate field="debtinc" operator="lessOrEqual" value="12.35"/>
+</CompoundPredicate>
+          <CompoundPredicate booleanOperator="and">
+            <True/>
+            <SimplePredicate field="othdebt" operator="lessOrEqual" value="3.444173"/>
+</CompoundPredicate>
+          <CompoundPredicate booleanOperator="and">
+            <True/>
+            <SimplePredicate field="creddebt" operator="lessOrEqual" value="1.906608"/>
+</CompoundPredicate>
+          <CompoundPredicate booleanOperator="and">
+            <True/>
+            <SimplePredicate field="age" operator="lessOrEqual" value="53.5"/>
+</CompoundPredicate>
+          <True/>
+</CompoundPredicate>
+        <ScoreDistribution confidence="0.85" probability="0.85" recordCount="289" value="0">
+          <Extension extender="spss.com" name="probability" value="0.85"/>
+</ScoreDistribution>
+        <ScoreDistribution confidence="0.15" probability="0.15" recordCount="51" value="1">
+          <Extension extender="spss.com" name="probability" value="0.15"/>
+</ScoreDistribution>
+</Node>
+      <Node defaultChild="5" id="2" recordCount="162" score="0">
+        <Extension>
+          <X-Node>
+            <X-NodeStats improvement="0.0159225383286883"/>
+</X-Node>
+</Extension>
+        <CompoundPredicate booleanOperator="surrogate">
+          <CompoundPredicate booleanOperator="and">
+            <SimplePredicate field="debtinc" operator="greaterThan" value="12.35"/>
+            <True/>
+</CompoundPredicate>
+          <CompoundPredicate booleanOperator="and">
+            <SimplePredicate field="othdebt" operator="greaterThan" value="3.444173"/>
+            <True/>
+</CompoundPredicate>
+          <CompoundPredicate booleanOperator="and">
+            <SimplePredicate field="creddebt" operator="greaterThan" value="1.906608"/>
+            <True/>
+</CompoundPredicate>
+          <CompoundPredicate booleanOperator="and">
+            <SimplePredicate field="age" operator="greaterThan" value="53.5"/>
+            <True/>
+</CompoundPredicate>
+          <False/>
+</CompoundPredicate>
+        <ScoreDistribution confidence="0.518518518518518" probability="0.518518518518518" recordCount="84" value="0">
+          <Extension extender="spss.com" name="probability" value="0.518518518518518"/>
+</ScoreDistribution>
+        <ScoreDistribution confidence="0.481481481481481" probability="0.481481481481481" recordCount="78" value="1">
+          <Extension extender="spss.com" name="probability" value="0.481481481481481"/>
+</ScoreDistribution>
+        <Node defaultChild="11" id="5" recordCount="142" score="0">
+          <Extension>
+            <X-Node>
+              <X-NodeStats improvement="0.0170067349956865"/>
+</X-Node>
+</Extension>
+          <CompoundPredicate booleanOperator="surrogate">
+            <CompoundPredicate booleanOperator="and">
+              <True/>
+              <SimplePredicate field="debtinc" operator="lessOrEqual" value="24.6"/>
+</CompoundPredicate>
+            <CompoundPredicate booleanOperator="and">
+              <True/>
+              <SimplePredicate field="othdebt" operator="lessOrEqual" value="13.885263"/>
+</CompoundPredicate>
+            <CompoundPredicate booleanOperator="and">
+              <True/>
+              <SimplePredicate field="creddebt" operator="lessOrEqual" value="14.624064"/>
+</CompoundPredicate>
+            <True/>
+</CompoundPredicate>
+          <ScoreDistribution confidence="0.577464788732394" probability="0.577464788732394" recordCount="82" value="0">
+            <Extension extender="spss.com" name="probability" value="0.577464788732394"/>
+</ScoreDistribution>
+          <ScoreDistribution confidence="0.422535211267606" probability="0.422535211267606" recordCount="60" value="1">
+            <Extension extender="spss.com" name="probability" value="0.422535211267606"/>
+</ScoreDistribution>
+          <Node defaultChild="18" id="11" recordCount="93" score="1">
+            <Extension>
+              <X-Node>
+                <X-NodeStats improvement="0.00855419921470708"/>
+</X-Node>
+</Extension>
+            <CompoundPredicate booleanOperator="surrogate">
+              <CompoundPredicate booleanOperator="and">
+                <True/>
+                <SimplePredicate field="employ" operator="lessOrEqual" value="9.5"/>
+</CompoundPredicate>
+              <CompoundPredicate booleanOperator="and">
+                <True/>
+                <SimplePredicate field="income" operator="lessOrEqual" value="43.5"/>
+</CompoundPredicate>
+              <CompoundPredicate booleanOperator="and">
+                <True/>
+                <SimplePredicate field="creddebt" operator="lessOrEqual" value="2.723346"/>
+</CompoundPredicate>
+              <CompoundPredicate booleanOperator="and">
+                <True/>
+                <SimplePredicate field="othdebt" operator="lessOrEqual" value="4.546272"/>
+</CompoundPredicate>
+              <CompoundPredicate booleanOperator="and">
+                <True/>
+                <SimplePredicate field="age" operator="lessOrEqual" value="39.5"/>
+</CompoundPredicate>
+              <CompoundPredicate booleanOperator="and">
+                <True/>
+                <SimplePredicate field="address" operator="lessOrEqual" value="16.5"/>
+</CompoundPredicate>
+              <True/>
+</CompoundPredicate>
+            <ScoreDistribution confidence="0.451612903225806" probability="0.451612903225806" recordCount="42" value="0">
+              <Extension extender="spss.com" name="probability" value="0.451612903225806"/>
+</ScoreDistribution>
+            <ScoreDistribution confidence="0.548387096774194" probability="0.548387096774194" recordCount="51" value="1">
+              <Extension extender="spss.com" name="probability" value="0.548387096774194"/>
+</ScoreDistribution>
+            <Node defaultChild="26" id="17" recordCount="42" score="0">
+              <Extension>
+                <X-Node>
+                  <X-NodeStats improvement="0.00918231834566496"/>
+</X-Node>
+</Extension>
+              <CompoundPredicate booleanOperator="surrogate">
+                <CompoundPredicate booleanOperator="and">
+                  <True/>
+                  <SimplePredicate field="ed" operator="lessOrEqual" value="1"/>
+</CompoundPredicate>
+                <CompoundPredicate booleanOperator="and">
+                  <True/>
+                  <SimplePredicate field="income" operator="lessOrEqual" value="27.5"/>
+</CompoundPredicate>
+                <CompoundPredicate booleanOperator="and">
+                  <True/>
+                  <SimplePredicate field="othdebt" operator="lessOrEqual" value="3.258591"/>
+</CompoundPredicate>
+                <CompoundPredicate booleanOperator="and">
+                  <True/>
+                  <SimplePredicate field="creddebt" operator="lessOrEqual" value="1.954746"/>
+</CompoundPredicate>
+                <CompoundPredicate booleanOperator="and">
+                  <SimplePredicate field="address" operator="greaterThan" value="16.5"/>
+                  <True/>
+</CompoundPredicate>
+                <CompoundPredicate booleanOperator="and">
+                  <SimplePredicate field="age" operator="greaterThan" value="35.5"/>
+                  <True/>
+</CompoundPredicate>
+                <False/>
+</CompoundPredicate>
+              <ScoreDistribution confidence="0.619047619047619" probability="0.619047619047619" recordCount="26" value="0">
+                <Extension extender="spss.com" name="probability" value="0.619047619047619"/>
+</ScoreDistribution>
+              <ScoreDistribution confidence="0.380952380952381" probability="0.380952380952381" recordCount="16" value="1">
+                <Extension extender="spss.com" name="probability" value="0.380952380952381"/>
+</ScoreDistribution>
+              <Node id="25" recordCount="10" score="1">
+                <CompoundPredicate booleanOperator="surrogate">
+                  <CompoundPredicate booleanOperator="and">
+                    <True/>
+                    <SimplePredicate field="address" operator="lessOrEqual" value="2.5"/>
+</CompoundPredicate>
+                  <CompoundPredicate booleanOperator="and">
+                    <True/>
+                    <SimplePredicate field="income" operator="lessOrEqual" value="16.5"/>
+</CompoundPredicate>
+                  <CompoundPredicate booleanOperator="and">
+                    <True/>
+                    <SimplePredicate field="othdebt" operator="lessOrEqual" value="0.731502"/>
+</CompoundPredicate>
+                  <CompoundPredicate booleanOperator="and">
+                    <True/>
+                    <SimplePredicate field="age" operator="lessOrEqual" value="21.5"/>
+</CompoundPredicate>
+                  <CompoundPredicate booleanOperator="and">
+                    <SimplePredicate field="debtinc" operator="greaterThan" value="23.45"/>
+                    <True/>
+</CompoundPredicate>
+                  <False/>
+</CompoundPredicate>
+                <ScoreDistribution confidence="0.2" probability="0.2" recordCount="2" value="0">
+                  <Extension extender="spss.com" name="probability" value="0.2"/>
+</ScoreDistribution>
+                <ScoreDistribution confidence="0.8" probability="0.8" recordCount="8" value="1">
+                  <Extension extender="spss.com" name="probability" value="0.8"/>
+</ScoreDistribution>
+</Node>
+              <Node id="26" recordCount="32" score="0">
+                <CompoundPredicate booleanOperator="surrogate">
+                  <CompoundPredicate booleanOperator="and">
+                    <SimplePredicate field="address" operator="greaterThan" value="2.5"/>
+                    <True/>
+</CompoundPredicate>
+                  <CompoundPredicate booleanOperator="and">
+                    <SimplePredicate field="income" operator="greaterThan" value="16.5"/>
+                    <True/>
+</CompoundPredicate>
+                  <CompoundPredicate booleanOperator="and">
+                    <SimplePredicate field="othdebt" operator="greaterThan" value="0.731502"/>
+                    <True/>
+</CompoundPredicate>
+                  <CompoundPredicate booleanOperator="and">
+                    <SimplePredicate field="age" operator="greaterThan" value="21.5"/>
+                    <True/>
+</CompoundPredicate>
+                  <CompoundPredicate booleanOperator="and">
+                    <True/>
+                    <SimplePredicate field="debtinc" operator="lessOrEqual" value="23.45"/>
+</CompoundPredicate>
+                  <True/>
+</CompoundPredicate>
+                <ScoreDistribution confidence="0.75" probability="0.75" recordCount="24" value="0">
+                  <Extension extender="spss.com" name="probability" value="0.75"/>
+</ScoreDistribution>
+                <ScoreDistribution confidence="0.25" probability="0.25" recordCount="8" value="1">
+                  <Extension extender="spss.com" name="probability" value="0.25"/>
+</ScoreDistribution>
+</Node>
+</Node>
+            <Node id="18" recordCount="51" score="1">
+              <CompoundPredicate booleanOperator="surrogate">
+                <CompoundPredicate booleanOperator="and">
+                  <SimplePredicate field="ed" operator="greaterThan" value="1"/>
+                  <True/>
+</CompoundPredicate>
+                <CompoundPredicate booleanOperator="and">
+                  <SimplePredicate field="income" operator="greaterThan" value="27.5"/>
+                  <True/>
+</CompoundPredicate>
+                <CompoundPredicate booleanOperator="and">
+                  <SimplePredicate field="othdebt" operator="greaterThan" value="3.258591"/>
+                  <True/>
+</CompoundPredicate>
+                <CompoundPredicate booleanOperator="and">
+                  <SimplePredicate field="creddebt" operator="greaterThan" value="1.954746"/>
+                  <True/>
+</CompoundPredicate>
+                <CompoundPredicate booleanOperator="and">
+                  <True/>
+                  <SimplePredicate field="address" operator="lessOrEqual" value="16.5"/>
+</CompoundPredicate>
+                <CompoundPredicate booleanOperator="and">
+                  <True/>
+                  <SimplePredicate field="age" operator="lessOrEqual" value="35.5"/>
+</CompoundPredicate>
+                <True/>
+</CompoundPredicate>
+              <ScoreDistribution confidence="0.313725490196078" probability="0.313725490196078" recordCount="16" value="0">
+                <Extension extender="spss.com" name="probability" value="0.313725490196078"/>
+</ScoreDistribution>
+              <ScoreDistribution confidence="0.686274509803922" probability="0.686274509803922" recordCount="35" value="1">
+                <Extension extender="spss.com" name="probability" value="0.686274509803922"/>
+</ScoreDistribution>
+</Node>
+</Node>
+          <Node id="12" recordCount="49" score="0">
+            <CompoundPredicate booleanOperator="surrogate">
+              <CompoundPredicate booleanOperator="and">
+                <SimplePredicate field="employ" operator="greaterThan" value="9.5"/>
+                <True/>
+</CompoundPredicate>
+              <CompoundPredicate booleanOperator="and">
+                <SimplePredicate field="income" operator="greaterThan" value="43.5"/>
+                <True/>
+</CompoundPredicate>
+              <CompoundPredicate booleanOperator="and">
+                <SimplePredicate field="creddebt" operator="greaterThan" value="2.723346"/>
+                <True/>
+</CompoundPredicate>
+              <CompoundPredicate booleanOperator="and">
+                <SimplePredicate field="othdebt" operator="greaterThan" value="4.546272"/>
+                <True/>
+</CompoundPredicate>
+              <CompoundPredicate booleanOperator="and">
+                <SimplePredicate field="age" operator="greaterThan" value="39.5"/>
+                <True/>
+</CompoundPredicate>
+              <CompoundPredicate booleanOperator="and">
+                <SimplePredicate field="address" operator="greaterThan" value="16.5"/>
+                <True/>
+</CompoundPredicate>
+              <False/>
+</CompoundPredicate>
+            <ScoreDistribution confidence="0.816326530612245" probability="0.816326530612245" recordCount="40" value="0">
+              <Extension extender="spss.com" name="probability" value="0.816326530612245"/>
+</ScoreDistribution>
+            <ScoreDistribution confidence="0.183673469387755" probability="0.183673469387755" recordCount="9" value="1">
+              <Extension extender="spss.com" name="probability" value="0.183673469387755"/>
+</ScoreDistribution>
+</Node>
+</Node>
+        <Node id="6" recordCount="20" score="1">
+          <CompoundPredicate booleanOperator="surrogate">
+            <CompoundPredicate booleanOperator="and">
+              <SimplePredicate field="debtinc" operator="greaterThan" value="24.6"/>
+              <True/>
+</CompoundPredicate>
+            <CompoundPredicate booleanOperator="and">
+              <SimplePredicate field="othdebt" operator="greaterThan" value="13.885263"/>
+              <True/>
+</CompoundPredicate>
+            <CompoundPredicate booleanOperator="and">
+              <SimplePredicate field="creddebt" operator="greaterThan" value="14.624064"/>
+              <True/>
+</CompoundPredicate>
+            <False/>
+</CompoundPredicate>
+          <ScoreDistribution confidence="0.1" probability="0.1" recordCount="2" value="0">
+            <Extension extender="spss.com" name="probability" value="0.1"/>
+</ScoreDistribution>
+          <ScoreDistribution confidence="0.9" probability="0.9" recordCount="18" value="1">
+            <Extension extender="spss.com" name="probability" value="0.9"/>
+</ScoreDistribution>
+</Node>
+</Node>
+</Node>
+    <Extension>
+      <X-TreeModel>
+        <X-PredictorImportanceList>
+          <X-PredictorImportance importance="100" predictorName="debtinc"/>
+          <X-PredictorImportance importance="26.8490007029444" predictorName="othdebt"/>
+          <X-PredictorImportance importance="35.8942082264959" predictorName="creddebt"/>
+          <X-PredictorImportance importance="1.77770734199182" predictorName="age"/>
+          <X-PredictorImportance importance="26.3477055593169" predictorName="employ"/>
+          <X-PredictorImportance importance="4.87999301549797" predictorName="income"/>
+          <X-PredictorImportance importance="20.0015788599031" predictorName="address"/>
+          <X-PredictorImportance importance="13.2526038808747" predictorName="ed"/>
+</X-PredictorImportanceList>
+        <X-Priors>
+          <X-Prior-Value targetCategory="0" value="0.743027888446215"/>
+          <X-Prior-Value targetCategory="1" value="0.256972111553785"/>
+</X-Priors>
+</X-TreeModel>
+</Extension>
+</TreeModel>
+</PMML>
